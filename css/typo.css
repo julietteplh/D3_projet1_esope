@@ -53,7 +53,7 @@ small, .font_small {font-size: 0.707em;}
 
 #section01 p{
   font-family: 'Titillium Web', sans-serif;
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
@@ -74,7 +74,7 @@ small, .font_small {font-size: 0.707em;}
 
 #section02 p{
   font-family: 'Titillium Web', sans-serif;
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
@@ -99,7 +99,7 @@ small, .font_small {font-size: 0.707em;}
 
 #section03 p{
   font-family: 'Noto Serif', serif;
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
@@ -120,7 +120,7 @@ small, .font_small {font-size: 0.707em;}
 
 #section04 p{
   font-family: 'Quicksand', sans-serif;
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
@@ -141,7 +141,7 @@ small, .font_small {font-size: 0.707em;}
 
 #section05 p{
   font-family: 'Quicksand', sans-serif;
-  display: inline-block;
+  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
