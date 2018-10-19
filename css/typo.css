@@ -1,0 +1,161 @@
+@import url('https://fonts.googleapis.com/css?family=Fahkwang|Space+Mono');
+@import url('https://fonts.googleapis.com/css?family=Quicksand|Dancing+Script|Noto+Serif|Indie+Flower|Charmonman|Titillium+Web|Cookie|Playfair+Display');
+
+
+html {
+  font-size: 1em;
+}
+
+body {
+  font-family: 'Space Mono', monospace;
+  font-weight: 400;
+  line-height: 1.45;
+}
+
+p {
+  margin-bottom: 1.3em;
+}
+
+h1, h2, h3, h4 {
+  font-family: 'Fahkwang', serif;
+  margin: 1.414em 0 0.5em;
+  font-weight: inherit;
+  line-height: 1.2;
+}
+
+h1 {
+  margin-top: 0;
+  font-size: 3.998em;
+  text-align: center;
+}
+
+h2 {font-size: 2.827em;}
+
+h3 {font-size: 1.999em;}
+
+h4 {font-size: 1.414em;}
+
+small, .font_small {font-size: 0.707em;}
+
+.hero h1{
+  font-family: 'Quicksand', sans-serif;
+  padding-top:150px;
+  font-size: 6em;
+}
+
+/****************************** SECTION 01 ***************************************/
+
+#section01 h1{
+  font-family: 'Charmonman', cursive;
+  font-weight:bold;
+  text-decoration: underline;
+}
+
+#section01 p{
+  font-family: 'Titillium Web', sans-serif;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  line-height:1.8;
+}
+
+#section01 p::first-letter {
+  font-family: 'Charmonman', cursive;
+  font-size: 160%;
+  font-weight:bold;
+  line-height:1.0;
+}
+
+/****************************** SECTION 02 ***************************************/
+
+#section02 h1{
+  font-family: 'Cookie', cursive;
+}
+
+#section02 p{
+  font-family: 'Titillium Web', sans-serif;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  line-height:1.8;
+}
+
+.quote{
+  font-family: 'Indie Flower', cursive;
+}
+
+#section02 p::first-letter {
+  font-family: 'Cookie', cursive;
+  font-size: 160%;
+  font-weight:bold;
+}
+
+/****************************** SECTION 03 ***************************************/
+
+#section03 h1{
+  font-family: 'Playfair Display', serif;
+  text-decoration: underline;
+}
+
+#section03 p{
+  font-family: 'Noto Serif', serif;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  line-height:1.8;
+}
+
+#section03 p::first-letter {
+  font-family: 'Playfair Display', serif;
+  font-size: 160%;
+  font-weight:bold;
+  line-height:1.0;
+}
+
+/****************************** SECTION 04 ***************************************/
+
+#section04 h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+#section04 p{
+  font-family: 'Quicksand', sans-serif;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  line-height:1.8;
+}
+
+#section04 p::first-letter {
+  font-family: 'Dancing Script', cursive;
+  font-size: 160%;
+  font-weight:bold;
+  line-height:1.0;
+}
+
+/****************************** SECTION 05 ***************************************/
+
+#section05 h1{
+  font-family: 'Dancing Script', cursive;
+}
+
+#section05 p{
+  font-family: 'Quicksand', sans-serif;
+  display: inline-block;
+  text-align: center;
+  width: 50%;
+  line-height:1.8;
+}
+
+#section05 p::first-letter {
+  font-family: 'Dancing Script', cursive;
+  font-size: 160%;
+  font-weight:bold;
+  line-height:1.0;
+}
+
+/****************************** FOOTER ***************************************/
+
+footer{
+  font-family: Titillium Web;
+}

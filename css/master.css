@@ -1,0 +1,135 @@
+body{
+  margin: 0px;
+  padding: 0px;
+}
+
+header {
+  background:  #1c1c1c;
+  font-size: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  text-transform: uppercase;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+header ul {
+  list-style-type: none;
+  display: flex;
+}
+
+header li {
+  flex-direction: row;
+  border: 1px solid #ffffff;
+  margin: 15px;
+}
+
+header li:hover{
+  background-color: grey;
+}
+
+header a {
+  text-decoration: none;
+  color: #ffffff;
+  padding: 12px;
+  display: flex;
+}
+
+/* A noter ici :
+1. L'utilisation d'une class sur la div, nous la ciblons ici dans la CSS au moyen d'un point .
+2. l'utilisation de background image et de background size
+3. une hauteur minimal à la div. (pour comprendre ce qu'est une VH : https://css-tricks.com/the-lengths-of-css/)
+*/
+.hero {
+  background-image: url('images/Esope.jpg');
+  background-size:cover;
+  background-attachment: fixed;
+  color : #fff;
+  min-height: 100vh;
+}
+
+/* Sur les sections :
+1. Nous utilisons encore une hauteur minimale pour faciliter la lecture et le rythme vertical de la page.
+2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
+*/
+section {
+  min-height: 90vh;
+  padding: 42px;
+}
+
+.odd {
+  background: #f4f4f4;
+  display:flex;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.even {
+  background: #1c1c1c;
+  color: #f9f9f9;
+  display:flex;
+  text-align: center;
+  flex-direction: column;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+}
+
+.illustration{
+  text-align: center;
+}
+
+/* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
+
+
+.image-block {
+  max-width: 540px;
+}
+
+.image-block img {
+  width : 100%;
+}
+
+figcaption {
+  font-family: 'Fahkwang', serif;
+  font-style: italic;
+  font-size: 12px;
+}
+
+footer {
+  background:  #1c1c1c;
+  color : #fff;
+  text-align: center;
+  padding: 30px;
+}
+
+footer ol {
+  list-style-type: none;
+  display: flex;
+  justify-content: center;
+}
+
+footer li {
+  border: 1px solid #ffffff;
+  padding: 20px;
+  margin: 10px;
+}
+
+/*
+
+// Small devices
+
+// Medium devices (landscape phones, 576px and up)
+@media (min-width: 640px) { ... }
+
+// Large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
+
+// Extra large devices
+
+@media (min-width: 1440px) { ... }
+
+*/
