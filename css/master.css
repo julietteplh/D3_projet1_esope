@@ -47,6 +47,7 @@ header a {
   background-attachment: fixed;
   color : #fff;
   min-height: 100vh;
+  text-align: center;
 }
 
 /* Sur les sections :
@@ -54,7 +55,7 @@ header a {
 2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
 */
 section {
-  min-height: 90vh;
+
   padding: 42px;
 }
 
@@ -78,6 +79,23 @@ section {
   align-items: center;
 }
 
+.esope {
+  color: #404141;
+  display: flex;
+  justify-content: center;
+}
+
+.legend{
+  padding-left: 40px;
+  padding-right: 40px;
+}
+
+.date-birth-death{
+  color: #777;
+  font-size: 26px;
+  font-family: Arial,Helvetica,Verdana,sans-serif;
+}
+
 .illustration{
   text-align: center;
 }
@@ -91,6 +109,12 @@ section {
 
 .image-block img {
   width : 100%;
+}
+
+.image-block-esope img{
+  max-width: 540px;
+  border-radius: 50%;
+  padding-right: 40px;
 }
 
 figcaption {
