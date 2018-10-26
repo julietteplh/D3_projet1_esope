@@ -55,39 +55,31 @@ header a {
 2. Nous utilsons des classes pour permettre d'aleterner visuellement les sections.
 */
 section {
+  padding: 50px;
+}
 
-  padding: 42px;
+.content{
+  display:flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  flex-wrap: wrap;
 }
 
 .odd {
   background: #f4f4f4;
-  display:flex;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
 }
 
 .even {
   background: #1c1c1c;
   color: #f9f9f9;
-  display:flex;
-  text-align: center;
-  flex-direction: column;
-  justify-content: center;
-  text-align: center;
-  align-items: center;
 }
 
 .esope {
   color: #404141;
   display: flex;
-  justify-content: center;
-}
-
-.legend{
-  padding-left: 40px;
-  padding-right: 40px;
+  justify-content: space-evenly;
+    flex-wrap: wrap;
 }
 
 .date-birth-death{
@@ -96,19 +88,15 @@ section {
   font-family: Arial,Helvetica,Verdana,sans-serif;
 }
 
-.illustration{
-  text-align: center;
-}
-
 /* Nous souhaitons que les images soient responsives... c'est à dire n'éxcèdent pas une certaine largeur ET se redimensionnent avec leur parent */
 
-
 .image-block {
-  max-width: 540px;
+  max-width: 450px;
 }
 
 .image-block img {
   width : 100%;
+  border-radius: 5%;
 }
 
 .image-block-esope img{
