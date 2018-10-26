@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css?family=Fahkwang|Space+Mono');
 @import url('https://fonts.googleapis.com/css?family=Quicksand|Dancing+Script|Noto+Serif|Indie+Flower|Charmonman|Titillium+Web|Cookie|Playfair+Display');
-
+@import url('https://fonts.googleapis.com/css?family=Krub');
 
 html {
   font-size: 1em;
@@ -26,7 +26,7 @@ h1, h2, h3, h4 {
 h1 {
   margin-top: 0;
   font-size: 3.998em;
-
+text-align: center;
 }
 
 h2 {font-size: 2.827em;}
@@ -38,9 +38,11 @@ h4 {font-size: 1.414em;}
 small, .font_small {font-size: 0.707em;}
 
 .hero h1{
-  font-family: 'Quicksand', sans-serif;
+  font-family: 'Krub', sans-serif;
+  text-transform: uppercase;
   padding-top:150px;
-  font-size: 6em;
+  font-size: 3em;
+  letter-spacing: 15px;
 }
 
 /****************************** SECTION 01 ***************************************/
@@ -53,10 +55,10 @@ small, .font_small {font-size: 0.707em;}
 
 #section01 p{
   font-family: 'Titillium Web', sans-serif;
-  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
+  padding-right: 50px;
 }
 
 #section01 p::first-letter {
@@ -74,10 +76,10 @@ small, .font_small {font-size: 0.707em;}
 
 #section02 p{
   font-family: 'Titillium Web', sans-serif;
-  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
+  padding-left: 50px;
 }
 
 .quote{
@@ -99,10 +101,10 @@ small, .font_small {font-size: 0.707em;}
 
 #section03 p{
   font-family: 'Noto Serif', serif;
-  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
+  padding-right: 50px;
 }
 
 #section03 p::first-letter {
@@ -120,10 +122,10 @@ small, .font_small {font-size: 0.707em;}
 
 #section04 p{
   font-family: 'Quicksand', sans-serif;
-  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
+  padding-left: 50px;
 }
 
 #section04 p::first-letter {
@@ -141,10 +143,10 @@ small, .font_small {font-size: 0.707em;}
 
 #section05 p{
   font-family: 'Quicksand', sans-serif;
-  display: inline-flex;
   text-align: center;
   width: 50%;
   line-height:1.8;
+  padding-right: 50px;
 }
 
 #section05 p::first-letter {
@@ -167,7 +169,6 @@ small, .font_small {font-size: 0.707em;}
   width: 50%;
   line-height:1.8;
   padding-left: 50px;
-  padding-bottom: 20px;
 }
 
 /****************************** FOOTER ***************************************/
